@@ -6,7 +6,7 @@
 
 using namespace std;
 
-//test 2 fail => priority_queue has problem
+//test 2 fail => priority_queue has problem => check if top is used
 
 const int MAXN=202;
 const int INF=0x3fffffff;
@@ -51,14 +51,16 @@ void dijkstra(int s){
     routes[s] = 1;
 
     for(int i=0;i<N;i++){
-        //int indice = pq.top();
-        //pq.pop();
-        //if(dp[indice] == INF){
-            //break;
-        //}
-
+        int indice = pq.top();
+        pq.pop();
+        if(dp[indice] == INF){
+            break;
+        }
+        if(vis[indice] == true){
+            continue;
+        }
         //do not use priority queue
-        int indice = -1;
+        /*int indice = -1;
         int Min  = INF;
         for(int j=0; j<N; j++){
             if(vis[j]==false&&dp[j] < Min){
@@ -69,14 +71,14 @@ void dijkstra(int s){
 
         if(indice == -1){
             break;
-        }
+        }*/
         vis[indice] = true;
         for(int j=0; j<N; j++){
             if(vis[j]==true||G[indice][j]==INF){
                 continue;
             }
             if(dp[j] > dp[indice]+G[indice][j]){
-                //pq.push(j);
+                pq.push(j);
                 dp[j] = dp[indice] + G[indice][j];
 
                 routes[j] = routes[indice];
