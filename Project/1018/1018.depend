@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1564902378 source:d:\jpat\src\1018(test4 failed).cpp
+	<iostream>
+	<queue>
+	<vector>
+

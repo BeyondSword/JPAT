@@ -3,7 +3,9 @@
 #include<vector>
 
 using namespace std;
-//邻接矩阵+优先队列+DFS    未通过样例点4
+//1.邻接矩阵+优先队列+DFS    未通过样例点4
+//2.优先队列去重 vis[]  当有重复dp的长度时堆可能无法上浮到顶点。 改动后仍然有问题，循环的次数变得不确定。
+//3.修改为传统方法，不使用优先队列，确保稳定性
 
 int Cmax,N,Sp,M;
 const int INF = 0x3fffffff;
@@ -15,31 +17,25 @@ int G[MAXN][MAXN];
 int send_num = INF;
 int col_num = INF;
 vector<int> res;
-
-class comparison{
-public:
-    bool operator()(int &a, int &b){
-        return dp[a]>dp[b];
-    }
-};
-priority_queue<int, vector<int>, comparison> pq;
-
-
-
-
 vector<vector<int> > before;
 
 int djikstra(void){
-
     //PBMC
     dp[0] = 0;
-    pq.push(0);
     for(int i=0; i<N+1; i++){
-        int indice = pq.top();
-        pq.pop();
-        if(dp[indice] == INF){
+        int indice = -1;
+        int Min = INF;
+        for(int j=0; j<N+1; j++){
+            if(vis[j]==false&&Min > dp[j]){
+                Min = dp[j];
+                indice = j;
+            }
+        }
+
+        if(indice == -1){
             break;
         }
+
         vis[indice] = true;
         for(int j=0; j<N+1; j++){
             //已访问或路径不可达
@@ -52,7 +48,6 @@ int djikstra(void){
                 //重置路径
                 before[j].clear();
                 before[j].push_back(indice);
-                pq.push(j);
             }
             //更新路径
             else if(dp[j] == dp[indice]+G[indice][j]){
@@ -114,7 +109,6 @@ void DFS(int root, int tot, vector<int> &path, int depth){
 }
 
 int main(){
-
     fill(vis, vis+MAXN, false);
     fill(dp, dp+MAXN, INF);
     for(int i=0; i<MAXN; i++){
