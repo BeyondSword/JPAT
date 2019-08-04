@@ -1,0 +1,8 @@
+Sample Input 1:
+169 5 2
+Sample Output 1:
+169 = 6^2 + 6^2 + 6^2 + 6^2 + 5^2
+Sample Input 2:
+169 167 3
+Sample Output 2:
+Impossible
