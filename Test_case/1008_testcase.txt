@@ -1,0 +1,4 @@
+Sample Input:
+3 2 3 1
+Sample Output:
+41

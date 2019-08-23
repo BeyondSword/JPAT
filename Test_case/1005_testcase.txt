@@ -1,0 +1,7 @@
+Sample Input:
+12345
+Sample Output:
+one five
+
+
+t2 not pass

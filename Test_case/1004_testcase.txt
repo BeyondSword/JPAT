@@ -1,0 +1,15 @@
+Sample Input:
+2 1
+01 1 02
+Sample Output:
+0 1
+
+6 2
+01 3 07 03 05
+07 2 02 06
+
+
+
+生词：pedigree 系谱图
+
+较快 半小时 ac
