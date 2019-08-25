@@ -1,0 +1,28 @@
+Sample Input 1:
+8 59
+AAA BBB 10
+BBB AAA 20
+AAA CCC 40
+DDD EEE 5
+EEE DDD 70
+FFF GGG 30
+GGG HHH 20
+HHH FFF 10
+Sample Output 1:
+2
+AAA 3
+GGG 3
+Sample Input 2:
+8 70
+AAA BBB 10
+BBB AAA 20
+AAA CCC 40
+DDD EEE 5
+EEE DDD 70
+FFF GGG 30
+GGG HHH 20
+HHH FFF 10
+Sample Output 2:
+0
+
+//准时 1h   t3段错误 || t3 pass 注意最大可能的人数
