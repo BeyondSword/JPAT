@@ -1,0 +1,16 @@
+Sample Input 1:
+6 110 1 10
+Sample Output 1:
+2
+Sample Input 2:
+1 ab 1 2
+Sample Output 2:
+Impossible
+
+171 ab 1 10
+
+0 0 1 10
+
+9 9 1 10
+
+c c 1 16

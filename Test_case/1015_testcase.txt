@@ -1,0 +1,26 @@
+Sample Input:
+73 10
+23 2
+23 10
+-2
+Sample Output:
+Yes
+Yes
+No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t1 not pass  主要是1不能视作prime number
+半小时过样例
