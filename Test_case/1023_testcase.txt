@@ -1,0 +1,30 @@
+Sample Input:
+1234567899
+Sample Output:
+Yes
+2469135798
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t2.t7 not pass double后要考虑进位问题

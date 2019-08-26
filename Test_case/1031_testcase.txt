@@ -1,0 +1,10 @@
+Sample Input:
+helloworld!
+Sample Output:
+h     !
+e     d
+l       l
+lowor
+
+
+helloworld
