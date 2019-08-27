@@ -1,0 +1,26 @@
+Sample Input:
+Is PAT&TAP symmetric?
+
+
+Sample Output:
+11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t1 t2 t4 t6不过, 初始化要为全0
