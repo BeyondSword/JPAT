@@ -1,0 +1,7 @@
+Sample Input:
+They are students.
+aeiou
+
+
+Sample Output:
+Thy r stdnts.

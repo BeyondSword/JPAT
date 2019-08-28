@@ -1,0 +1,69 @@
+Sample Input:
+17
+Pop
+PeekMedian
+Push 3
+PeekMedian
+Push 2
+PeekMedian
+Push 1
+PeekMedian
+Pop
+Pop
+Push 5
+Push 4
+PeekMedian
+Pop
+Pop
+Pop
+Pop
+
+
+Sample Output:
+17
+Pop
+Invalid
+PeekMedian
+Invalid
+Push 3
+PeekMedian
+3
+Push 2
+PeekMedian
+2
+Push 1
+PeekMedian
+2
+Pop
+1
+Pop
+2
+Push 5
+Push 4
+PeekMedian
+4
+Pop
+4
+Pop
+5
+Pop
+3
+Pop
+Invalid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t2 t3 ³¬Ê±

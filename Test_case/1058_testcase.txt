@@ -1,0 +1,6 @@
+Sample Input:
+3.2.1 10.16.27
+
+
+Sample Output:
+14.1.28
