@@ -1,0 +1,31 @@
+Sample Input:
+4
+29
+5
+elo nov
+tam
+
+
+Sample Output:
+hel mar
+may
+115
+13
+
+0
+tret
+
+1
+elo tret
+
+
+
+
+
+
+t1 t2 t3 t4 都错
+
+t2 去掉两位数后的0 pass
+t1 t3 t4 not pass
+全部pass 转换的时候分位数讨论会很麻烦，因为不知道有几个数。
+直接给高位赋值 13 26 ...

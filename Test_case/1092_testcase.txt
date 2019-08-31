@@ -1,0 +1,12 @@
+Sample Input 1:
+ppRYYGrrYBR2258
+YrR8RrY
+Sample Output 1:
+Yes 8
+
+
+Sample Input 2:
+ppRYYGrrYB225
+YrR8RrY
+Sample Output 2:
+No 2

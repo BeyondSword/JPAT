@@ -1,0 +1,37 @@
+Sample Input:
+7_This_is_a_test
+_hs_s_a_es
+
+
+Sample Output:
+7TI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t4 not pass
+末尾处理 B加个哨兵（任意不可能出现的字符）

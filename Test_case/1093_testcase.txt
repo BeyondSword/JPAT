@@ -1,0 +1,35 @@
+Sample Input:
+APPAPT
+
+
+Sample Output:
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t3 t4 not pass
+ДѓЪ§ШЁгр
