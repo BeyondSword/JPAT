@@ -1,0 +1,58 @@
+Sample Input:
+10 5
+Tom 188
+Mike 170
+Eva 168
+Tim 160
+Joe 190
+Ann 168
+Bob 175
+Nick 186
+Amy 160
+John 159
+
+
+Sample Output:
+Bob Tom Joe Nick
+Ann Mike Eva
+Tim Amy John
+
+####
+10 1
+Tom 188
+Mike 170
+Eva 168
+Tim 160
+Joe 190
+Ann 168
+Bob 175
+Nick 186
+Amy 160
+John 159
+
+###
+10 11
+Tom 188
+Mike 170
+Eva 168
+Tim 160
+Joe 190
+Ann 168
+Bob 175
+Nick 186
+Amy 160
+John 159
+
+
+
+
+
+
+
+
+
+
+45min 勉强过样例
+
+t3 4 5 段错误
+忙中出错，数组初始化的时候把MAXN 写出 MAXK了。。
