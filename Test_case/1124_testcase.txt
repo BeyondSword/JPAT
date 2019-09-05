@@ -1,0 +1,23 @@
+Sample Input 1:
+9 3 2
+Imgonnawin!
+PickMe
+PickMeMeMeee
+LookHere
+Imgonnawin!
+TryAgainAgain
+TryAgainAgain
+Imgonnawin!
+TryAgainAgain
+Sample Output 1:
+PickMe
+Imgonnawin!
+TryAgainAgain
+
+
+Sample Input 2:
+2 3 5
+Imgonnawin!
+PickMe
+Sample Output 2:
+Keep going...
