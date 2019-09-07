@@ -1,0 +1,29 @@
+Sample Input:
+10
+5 -25 9 6 1 3 4 2 5 17
+
+
+Sample Output:
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t1 t4 not pass
+
+30min AC 想法太多，其实O[n]来得及

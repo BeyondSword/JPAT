@@ -1,0 +1,38 @@
+Sample Input 1:
+20 5
+23654987725541023819
+Sample Output 1:
+49877
+
+
+Sample Input 2:
+10 3
+2468024680
+Sample Output 2:
+404
+
+
+
+4 3
+00031
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30min ac
+
+t2 t4 not pass
+t2 考虑 前缀0, 前缀0要输出
+t4？L<K时忘记返回了

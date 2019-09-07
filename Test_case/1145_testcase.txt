@@ -1,0 +1,26 @@
+Sample Input:
+4 5 4
+10 6 4 15 11
+11 4 15 2
+
+
+
+Sample Output:
+15 cannot be inserted.
+2.8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40min ac 考虑次数想了很久，感觉找不到的次数算的有点问题
